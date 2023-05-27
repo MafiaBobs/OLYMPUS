@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Olympus Gadget</title>
+
+<link rel="stylesheet" href="Css/CSS.css">
+<link rel="icon" type="images/x-icon" href="pictures/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+</head>
+<body>
+    <section id="home" class="main">
+    <nav>
+        <a href="Home.html"><img src="Pictures/o5%20copy.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href ="#home">HOME</a></li>
+                <li><a href ="#products">PRODUCTS</a></li>
+                <li><a href ="#about">ABOUT</a></li>
+                <li><a href ="cart.html">CART</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="Pictures/Phone copy.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Pictures/Camera copy.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Pictures/Mouse Copy.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Pictures/Laptop copy.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Pictures/Projector copy.jpg" alt="">
+        </div>
+      </div>
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+      </div>
+    </div>
+    </section>
+        </div>
+    </section>
+
+<section id="products" class="Review">
+    <h1>PRODUCTS</h1>
+    <p> Here are our products, choose wisely.</p>
+<br>
+    <div class="container">
+          <div class="image">
+            <img src="Pictures/Phone.jpg" alt="">
+
+            <img src="Pictures/Camera.jpg" alt="">
+
+            <img src="Pictures/Mouse.jpg" alt="">
+
+            <img src="Pictures/Laptop.jpg" alt="">
+   
+            <img src="Pictures/Projector.jpg" alt="">
+    </div>
+</section>
+
+<section id="about" class="about-us">
+     <div class="About-row">
+        <div class="about-col">
+            <h1>WE SHALL CONQUER</h1>
+            <p>The Olympus is a proving ground to chase excellence and push limits. Each battle scar is a badge of honor-the price of victory.</p>
+            <p>We call on those who conquer to venture forward and face thier fears. If you pledge to be true to yourself and fight for those in need. The Olympus waits on you.</p>
+        </div>
+   <div class="about-col">
+    <img src="Pictures/5 copy.jpg" alt="">
+         </div>
+    </div>
+    <div class="About-row">
+        <div class="about-col">
+        <h3>About Olympus</h3>
+            <p>Mission, by innovating products that offer an exceptional experience for all people, we can create a world without limits. Vision, with us, we can achieve our true potential together through people connections. Resolution, "Being unconventional" is a core value in ppeople. To subvert. To hybridize. To rebel: these are the ways that people actualize their true identities.</p>
+        </div>
+    </div>
+<br>
+</section>
+   
+<section class="footer">
+  <div class="container">
+
+<div class="col-md-6 panel">
+<div class="panel-body">
+<p class="simplenav">
+<a href ="#home">HOME</a> |
+    <a href ="#products">PRODUCTS</a> |
+    <a href ="#about">ABOUT</a> |
+    <a href ="cart.html">CART</a>
+			</p>
+		</div>
+		</div>
+			<p class="text-right">&copy; Olympus 2023. All Rights Reserved. All specifications are subject to change without notice and features are only in select models. Products may not be available in all markets.
+				</p>
+			</div>
+
+    <a href="#home" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
